@@ -84,7 +84,7 @@ let verticalSpeed = 0.3;     // Taxa entre 0 e 1 para controlar a propagação v
   }
   initialise();
 })(document.querySelectorAll.bind(document));
-const heading_arr = ["Feliz Natal"];
+const heading_arr = ["Anderson Luigui lhe deseja um Feliz Natal"];
 function TypeWriterHeading ()
 {
   let i = 0;
@@ -99,7 +99,7 @@ function TypeWriterHeading ()
   }
   setInterval (type, 125);
 }
-let body_arr = ["E um 2024 repleto de códigos"];
+let body_arr = ["E um 2024 repleto de cerveja"];
 let body_delword = "coisas boas";
 function TypeWriterBody()
 {

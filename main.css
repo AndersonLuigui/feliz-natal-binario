@@ -5,6 +5,38 @@ body {
   color: green;
 }
 
+.bi {
+  text-shadow: 2px 1px 1px #0000006c;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: green;
+
+}
+
+.msg {
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+.msg ul {
+  display: flex;
+  justify-content: center;
+}
+
+.msg ul li {
+  padding-inline: 10px;
+  list-style: none;
+}
+
+.msg ul li a {
+  text-decoration: none;
+}
+
+
+
 sparkles {
   color: #066806;
 }
@@ -31,10 +63,10 @@ matrixframe {
   text-align: center;
 }
 .christmas-animation .typewriter .heading {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .christmas-animation .typewriter .body {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .christmas-animation .typewriter .typewriter_caret {
   animation: blink 500ms infinite;
